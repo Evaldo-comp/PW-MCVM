@@ -1,0 +1,104 @@
+/* Configuração Geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(to right, blue, red);
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Seções */
+section {
+    margin: 40px 0;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 🔹 BACKGROUNDS */
+.bg-example {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid #333;
+}
+
+/* Background Color */
+#bg-color {
+   /* background: linear-gradient(to right, blue, red);*/
+    background: radial-gradient(circle, red, pink);
+   /* background-color: lightblue;*/
+}
+
+/* Background Image */
+
+#bg-image {
+    background-image: url("img.png");
+    background-size:cover;
+}
+
+/* Background Repeat */
+#bg-repeat {
+    background-image: url('img.png');
+    background-size: 50px 50px;
+    background-repeat: repeat-x;
+}
+
+/* Background Position */
+#bg-position {
+    background-image: url('img.png');
+    background-repeat: no-repeat;
+    background-size: 50px ;
+    background-position:left;
+}
+
+/* Background Atachment*/
+#bg-attachment{
+    background-image: url('img.png');
+    background-attachment: fixed;
+}
+
+/* 🔹 FONTES */
+.font-family {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.font-weight {
+    font-weight: bold;
+}
+
+.font-style {
+    font-style: italic;
+}
+
+.font-size {
+    font-size: 24px;
+}
+
+/* 🔹 ESTILOS DE TEXTO */
+.text-color {
+    color: red;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.text-decoration {
+    text-decoration: underline line-through;
+}
+
+.text-transform {
+    text-transform: uppercase;
+}
