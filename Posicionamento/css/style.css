@@ -36,6 +36,10 @@
             line-height: 150px;
             font-weight: bold;
         }
+
+        .float-box:hover{
+            background-color: rgb(248, 37, 37);
+        }
     .pl{
         width: 45%;
         height: 150px;

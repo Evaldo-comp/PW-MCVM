@@ -44,15 +44,15 @@ section {
 /* Background Image */
 
 #bg-image {
-    background-image: url("img.png");
+    background-image: url("/img/img.png");
     background-size:cover;
 }
 
 /* Background Repeat */
 #bg-repeat {
-    background-image: url('img.png');
-    background-size: 50px 50px;
-    background-repeat: repeat-x;
+    background-image: url('/img/img.png');
+    background-size: 80px 80px;
+    background-repeat: repeat;
 }
 
 /* Background Position */
