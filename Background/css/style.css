@@ -57,16 +57,16 @@ section {
 
 /* Background Position */
 #bg-position {
-    background-image: url('img.png');
-    background-repeat: no-repeat;
-    background-size: 50px ;
-    background-position:left;
-}
+    background-image: url('/img/img.png');
+    background-repeat:unset;
+    background-size: 50px;
+    background-position:360px 330px;
+}    
 
 /* Background Atachment*/
 #bg-attachment{
-    background-image: url('img.png');
-    background-attachment: fixed;
+    background-image: url('/img/image.png');
+    background-attachment:local;
 }
 
 /* 🔹 FONTES */
