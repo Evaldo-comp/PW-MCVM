@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display no CSS - Demonstração</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <h1>Demonstração de Tipos de Display</h1>
+
+  <section>
+    <h2>Descrição dos Valores de Display</h2>
+    <ul>
+      <li><strong>block</strong>: Elemento ocupa toda a largura disponível. Ex: &lt;div&gt;, &lt;p&gt;, &lt;form&gt;.</li>
+      <li><strong>inline</strong>: Elemento flui na mesma linha. Ex: &lt;span&gt;, &lt;a&gt;.</li>
+      <li><strong>inline-block</strong>: Como inline, mas permite definir largura e altura. Útil para layouts lado a lado.</li>
+      <li><strong>flex</strong>: Cria um container flexível para alinhar itens com controle de direção, espaçamento e alinhamento.</li>
+    </ul>
+  </section>
+
+  <!-- Demonstração de um display block -->
+  <section class="block-demo">
+    <h2>display: block</h2>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+
+
+  <!-- <section class="inline-demo">
+    <h2>display: inline</h2>
+    <p>
+      Frases com <span>palavras</span> em <span>destaque</span> usando <span>display inline</span>.
+    </p>
+  </section> -->
+
+  <section class="inline-block-demo">
+    <h2>display: inline-block</h2>
+    <div class="card">
+      <h3>Card 1</h3>
+      <p>Conteúdo do card.</p>
+    </div>
+    <div class="card">
+      <h3>Card 2</h3>
+      <p>Outro conteúdo.</p>
+    </div>
+  </section>
+
+  <section class="flex-demo">
+    <h2>display: flex</h2>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Serviços</a>
+      <a href="#">Sobre</a>
+      <a href="#">Contato</a>
+    </nav>
+  </section>
+
+  </body>
+</html>
